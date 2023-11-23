@@ -251,3 +251,5 @@ plot_model(model, show_shapes=True, show_layer_names=(True))
 loss, accuracy = model.evaluate(X_test, y_test)
 print(f"Test Loss: {loss:.4f}, Test Accuracy: {accuracy*100:.2f}%")
 model.save(os.path.join('models','classify_v1.h5'))
+
+credit to : HackerEarth HackLive: Customer Segmentation | Kaggle.
